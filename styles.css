@@ -762,3 +762,21 @@ input:focus {
         flex-direction: column;
     }
 }
+/* Custom feature: embedding cache indicator */
+.embed-source {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+.embed-source.cached {
+    color: #4ade80;
+    background: rgba(74, 222, 128, 0.08);
+    border-color: rgba(74, 222, 128, 0.3);
+}
+.embed-source.fresh {
+    color: #93c5fd;
+    background: rgba(147, 197, 253, 0.08);
+    border-color: rgba(147, 197, 253, 0.3);
+}
